@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Real World | TRW Mentor Max</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #ffd700;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-weight: normal;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    .services {
+      text-align: left;
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #1a1a1a;
+      border-radius: 10px;
+    }
+    .services h3 {
+      color: #ffd700;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li::before {
+      content: "✓ ";
+      color: #00cc66;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background-color: #ffd700;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+    .cta:hover {
+      background-color: #e6c200;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      color: #f2f2f2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .social-links a:hover {
+      color: #ffd700;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.85em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>The Real World</h1>
+    <h2>with TRW Mentor Max</h2>
+
+    <p>Helping clients grow wealth through expert trading and mentorship.</p>
+
+    <div class="services">
+      <h3>What I Offer:</h3>
+      <ul>
+        <li>Forex & Crypto Signals</li>
+        <li>Account Management</li>
+        <li>One-on-One Mentorship</li>
+        <li>Access to TRW 2.0</li>
+      </ul>
+    </div>
+
+    <a class="cta" href="https://wa.me/1234567890" target="_blank">Join TRW Now</a>
+
+    <div class="social-links">
+      <a href="https://t.me/trwmentor" target="_blank">Telegram</a>
+      <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+      <a href="https://instagram.com/trwmentor" target="_blank">Instagram</a>
+    </div>
+
+    <footer>
+      &copy; 2025 TRW Mentor Max. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
